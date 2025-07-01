@@ -1,0 +1,37 @@
+:root {
+    --minecraft-aqua: #3BD6E5;
+    --minecraft-dark: #14464D;
+    --accent-color: #22A7B7;
+    --bg-color: #0A2529;
+    --parallax-offset: 20px;
+    --gradient-start-color: rgba(10, 37, 41, 0.7);
+    --gradient-end-color: rgba(10, 37, 41, 0.9);
+    --background-image: url('../images/background.jpg');
+    --transition-duration: 0.1s;
+    --border-radius-sm: 4px;
+    --border-radius-md: 8px;
+    --border-radius-lg: 12px;
+    --spacing-sm: 0.5rem;
+    --spacing-md: 1rem;
+    --spacing-lg: 2rem;
+    --spacing-xl: 4rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', system-ui, sans-serif;
+    background-color: var(--bg-color);
+    color: #fff;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
