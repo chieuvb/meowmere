@@ -8,7 +8,7 @@ import {copyIP} from "@/utils/helpers.js";
       <h1>How to Play</h1>
       <p class="hero-subtitle">Join our Minecraft Bedrock Server</p>
       <div class="server-address">
-        <span class="ip">play.meowmere.site</span>
+        <span class="ip">play.meowmere.site:10188</span>
         <button class="copy-btn" @click="copyIP">Copy IP</button>
       </div>
     </div>
