@@ -94,67 +94,6 @@
 </template>
 
 <style scoped>
-/* Hero Section */
-.hero {
-  position: relative;
-  height: 60vh;
-  min-height: 400px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-  text-align: center;
-}
-
-.hero-content {
-  padding: var(--spacing-xl);
-  background: linear-gradient(to bottom, var(--gradient-start-color), var(--gradient-end-color));
-  border-radius: var(--border-radius-lg);
-  backdrop-filter: blur(5px);
-  max-width: 800px;
-  width: 90%;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
-}
-
-.hero h1 {
-  font-size: 3.5rem;
-  margin-bottom: var(--spacing-md);
-  color: var(--minecraft-aqua);
-  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-}
-
-.hero-subtitle {
-  font-size: 1.5rem;
-  color: #fff;
-}
-
-.content-wrapper {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: var(--spacing-xl) var(--spacing-md);
-}
-
-.section-title {
-  text-align: center;
-  color: var(--minecraft-aqua);
-  margin-bottom: var(--spacing-lg);
-  font-size: 2.5rem;
-  position: relative;
-  padding-bottom: var(--spacing-md);
-}
-
-.section-title::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 100px;
-  height: 3px;
-  background-color: var(--accent-color);
-  border-radius: var(--border-radius-sm);
-}
-
 /* Terms Section */
 .terms-section {
   margin-bottom: var(--spacing-xl);

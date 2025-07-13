@@ -8,7 +8,7 @@ import {copyIP} from "@/utils/helpers.js";
       <h1>Welcome to Meowmere</h1>
       <p class="hero-subtitle">A Minecraft Bedrock Server</p>
       <div class="server-address">
-        <span class="ip">play.meowmere.site</span>
+        <span class="ip">play.meowmere.site:10188</span>
         <button class="copy-btn" @click="copyIP">Copy IP</button>
       </div>
     </div>
@@ -70,42 +70,6 @@ import {copyIP} from "@/utils/helpers.js";
 </template>
 
 <style scoped>
-/* Hero Section */
-.hero {
-  position: relative;
-  height: 90vh;
-  min-height: 500px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-  text-align: center;
-}
-
-.hero-content {
-  padding: var(--spacing-xl);
-  background: linear-gradient(to bottom, var(--gradient-start-color), var(--gradient-end-color));
-  border-radius: var(--border-radius-lg);
-  backdrop-filter: blur(5px);
-  max-width: 800px;
-  width: 90%;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
-  transform: translateZ(0);
-}
-
-.hero h1 {
-  font-size: 3.5rem;
-  margin-bottom: var(--spacing-md);
-  color: var(--minecraft-aqua);
-  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-}
-
-.hero-subtitle {
-  font-size: 1.5rem;
-  margin-bottom: var(--spacing-lg);
-  color: #fff;
-}
-
 .server-address {
   display: flex;
   justify-content: center;
@@ -140,33 +104,6 @@ import {copyIP} from "@/utils/helpers.js";
   background-color: #fff;
   transform: translateY(-2px);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-.content-wrapper {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: var(--spacing-xl) var(--spacing-md);
-}
-
-.section-title {
-  text-align: center;
-  color: var(--minecraft-aqua);
-  margin-bottom: var(--spacing-lg);
-  font-size: 2.5rem;
-  position: relative;
-  padding-bottom: var(--spacing-md);
-}
-
-.section-title::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 100px;
-  height: 3px;
-  background-color: var(--accent-color);
-  border-radius: var(--border-radius-sm);
 }
 
 /* Features Section */
